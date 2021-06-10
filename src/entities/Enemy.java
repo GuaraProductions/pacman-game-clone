@@ -1,6 +1,5 @@
 package entities;
 
-import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 
@@ -14,7 +13,6 @@ public class Enemy extends Entity{
 	private int frames = 0,maxFrames = 10,index = 0,maxIndex = 1,deathFrames = 10;
 	
 	//Variaveis de estatísticas
-	private int life = 1;
 	private boolean isDamaged = false;
 	
 	public Enemy(int x, int y, int width, int height, int speed, BufferedImage sprite) {
